@@ -11,12 +11,12 @@ Because some of the columns that I wanted to consider contained string values, I
 #### Results
 Using K-Means clustering, I determined that k = 4 clusters would best suit the data. This is usally done by finding the 'elbow point' in a graph that shows the results of considering various numbers of clusters. Generally, the elbow point is the point of diminishing returns for including greater numbers of clusters. Indeed, including too many clusters can make the results difficult to understand or communicate.
 
-![K-Means Elbow Point]()
+![K-Means Elbow Point](https://github.com/veachk90/Cryptocurrencies/blob/main/Screenshot%20(287).png)
 
 Because there were three principal components I used to organize the data into four clusters, I determined that it would be best to present the results in a 3D scatterplot. 
 
-![3D Scatterplot of Clusters]()
+![3D Scatterplot of Clusters](https://github.com/veachk90/Cryptocurrencies/blob/main/Screenshot%20(286).png)
 
 Finally, I wanted to show how the number of coins mined versus the total coin supply could be used to predict the class, or cluster, in which a given coin would be found. This was easy enough to do in a 2D scatterplot, with each cluster represented by a different color. 
 
-![Mining versus Supply]()
+![Mining versus Supply](https://github.com/veachk90/Cryptocurrencies/blob/main/Screenshot%20(285).png)
